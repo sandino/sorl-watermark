@@ -4,7 +4,7 @@ from setuptools import setup
 from setuptools import find_packages
 
 setup(
-    name="sorl-watermark",
+    name="sorl-wmark",
     version="1.1.0",
     url="https://github.com/originell/sorl-watermark",
     author="Luis Nell",

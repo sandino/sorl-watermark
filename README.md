@@ -1,3 +1,13 @@
+## About this fork
+This is a full unchanged clone of the repository at https://github.com/originell/sorl-watermark 
+ 
+I can't install the original package in docker container from Github, only from Pypi. Well, I could do it, but I would 
+have to install git into my container, but I want to keep it as small as possible. The original project 
+at https://pypi.org/project/sorl-watermark/ is outdated, so I forked and published the latest version on Pypi under 
+the new name **sorl-wmark**, and you can install it with
+
+    $ pip install sorl-wmark
+
 # sorl-watermark
 
 sorl-watermark adds support for watermarking to sorl-thumbnail.
@@ -19,7 +29,7 @@ you might want to have a look at [zeus/watermark](https://bitbucket.org/zeus/wat
 
 Install via pip
 
-    $ pip install sorl-watermark
+    $ pip install sorl-wmark
 
 Change sorl's thumbnail engine to one from sorl-watermark. PIL and imagemagick are
 supported.
